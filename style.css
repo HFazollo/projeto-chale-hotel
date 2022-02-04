@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #fff url(../projeto-chale-hotel/imagens/bg.png);
+    background: #fff url(/imagens/bg.png);
     margin: 15px;
 }
 
@@ -13,7 +13,7 @@ body {
     min-width: 740px;
     max-width: 1180px;
     margin: 0 auto;
-    background: #ede9cc url(../projeto-chale-hotel/imagens/bg-container.png) top center repeat-y;
+    background: #ede9cc url(/imagens/bg-container.png) top center repeat-y;
 }
 
 #topo {
@@ -34,7 +34,7 @@ ul {
 /****** Topo do Site ******/
 /** Área do Logo **/
 #area-logo {
-    background: url(../projeto-chale-hotel/imagens/topo-imagem-principal.png) no-repeat;
+    background: url(/imagens/topo-imagem-principal.png) no-repeat;
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ ul {
     top: 15px;
     left: 15px;
     z-index: 3;
-    background: url(../projeto-chale-hotel/imagens/logo.png) no-repeat;
+    background: url(/imagens/logo.png) no-repeat;
     width: 151px;
     height: 66px;
     text-indent: -9000px;
@@ -56,7 +56,7 @@ ul {
 
 /** Área do Menu **/
 #area-menu {
-    background: url(../projeto-chale-hotel/imagens/topo-imagem-lateral.png) no-repeat;
+    background: url(/imagens/topo-imagem-lateral.png) no-repeat;
     position: absolute;
     top: 0;
     right: 0;
@@ -127,14 +127,14 @@ a.reserva {
 #conteudo-primario {
     float: left;
     width: 50%;
-    background: url(../projeto-chale-hotel/imagens/bg-area-principal.png) top left repeat-x;
+    background: url(/imagens/bg-area-principal.png) top left repeat-x;
     padding: 15px 0px;
 }
 
 #conteudo-secundario {
     float: right;
     width: 50%;
-    background: url(../projeto-chale-hotel/imagens/bg-area-lateral.png) top left repeat-x;
+    background: url(/imagens/bg-area-lateral.png) top left repeat-x;
     padding: 15px 0px;
 }
 
@@ -164,7 +164,7 @@ a.reserva {
 	font-size: 1.1em;
 	color: #615b2d;
 	padding: 5px 0;
-	background: url(../imagens/ornamento.png) no-repeat center right;
+	background: url(/imagens/ornamento.png) no-repeat center right;
 }
 
 .conteudo li a p {
@@ -186,6 +186,6 @@ a.reserva {
 #rodape {
     clear: both;
     padding: 15px;
-	background: #fff url(../projeto-chale-hotel/imagens/bg-rodape.png) repeat-x top;
+	background: #fff url(/imagens/bg-rodape.png) repeat-x top;
     color: #7d7640;
 }
